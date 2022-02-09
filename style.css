@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Open Sans", Roboto;
+  font-size: 120%;
+  background: url("https://source.unsplash.com/1920x1080/?Landscape");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+  background: #000000d0;
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 50%;
+  margin: 1em;
+}
+
+h2 {
+  margin: none;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+img.flag {
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  width: 50%;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 44px;
+  width: 44px;
+  outline: none;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+input.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
+  border-radius: 20px;
+  background: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 100%;
+  width: calc(100% - 100px);
+}
+
+button:hover {
+  background: #7c7c7c6b;
+}
+
+table {
+  width: 100%;
+  opacity: .8;
+  border-radius: 20px;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #222222;}
+tr:nth-child(odd) {background-color: #444444;}
